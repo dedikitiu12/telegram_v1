@@ -1,13 +1,11 @@
-TELEGRAM_BOT_TOKEN = "ISI_TOKEN_BOT_KAMU"
-TELEGRAM_CHAT_ID = "ISI_CHAT_ID_KAMU"
-GOLDAPI_KEY = "ISI_API_KEY_KAMU"
+# Token Telegram Bot kamu
+TELEGRAM_BOT_TOKEN = "8166961342:AAE4N2tS0MThuf-C9XzHzndwewfiuy7jYyg"
 
-# Pair default yang digunakan
-DEFAULT_SYMBOL = "XAUUSD"
+# ID Telegram yang akan menerima notifikasi
+TELEGRAM_CHAT_ID = "6247078302"
 
-# Interval waktu ambil data (dalam detik)
-FETCH_INTERVAL = 300  # 5 menit sekali
+# API Key untuk akses GoldAPI
+GOLDAPI_KEY = "goldapi-xv6ysmdjzisz3-io"
 
-# Telegram endpoint
-TELEGRAM_API_URL = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-
+# Pair default yang dipantau (bisa diganti jika perlu)
+PAIR = "XAU/USD"
